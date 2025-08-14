@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buton de Apelare</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Un fundal ușor, pentru vizibilitate */
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 70vw;
+            max-height: 70vh;
+            border: 1px solid #ccc; /* Un chenar pentru a arăta limitele */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            text-decoration: none; /* Elimină sublinierea implicită a link-urilor */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="tel:+40766459276">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczMxOejQ6dAwOij83t-SyWDwY2HyDvJKk_m_0jEHHhUW3VgqI1TkUsI7_5B6CrPu1jGan4FlVk1IPXdfGC7jD_Xndhk8z9Y5ARWm0dMYcSeuk0Sbuq9X3a1V4pAk-L4JOSPU-kKG_kriM-2EFII_mlHszQ=w377-h655-s-no-gm?authuser=0?.jpg">
+        </a>
+    </div>
+</body>
+</html>
